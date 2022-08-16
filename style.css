@@ -15,7 +15,7 @@
 .menu{
     display: grid;
     gap: 5px;
-    grid-area: 1/1/5/2;
+    grid-area: 1/1/4/2;
     background-color: blue;
 }
 
@@ -30,4 +30,21 @@
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
     grid-area: 2/2/4/3;
+}
+
+
+.home-list > ul > li{
+    color: white;
+}
+
+.dashboard-title{
+    color: white;
+}
+
+.settings-list>ul>li{
+    color: white;
+}
+
+ul,li{
+    list-style: none;
 }
