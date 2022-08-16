@@ -17,6 +17,15 @@
     gap: 5px;
     grid-area: 1/1/4/2;
     background-color: blue;
+
+}
+
+.search-bar{
+    margin: 15px;
+}
+
+.home-list{
+   align-items: space-around;
 }
 
 .header{
@@ -35,16 +44,20 @@
 
 .home-list > ul > li{
     color: white;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
-.dashboard-title{
-    color: white;
-}
-
-.settings-list>ul>li{
-    color: white;
-}
 
 ul,li{
     list-style: none;
+}
+
+.dashboard{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.communities{
+    margin-bottom: 50px;
 }
